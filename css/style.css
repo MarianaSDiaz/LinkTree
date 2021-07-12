@@ -1,0 +1,81 @@
+* {
+  background-color: rgb(255, 221, 227);
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', 'Verdana', 'sans-serif';
+}
+#container {
+  margin: 30px 40px 20px 40px;
+}
+#main {
+  display: flex;
+  margin: 50px auto;
+  flex-direction: column;
+  align-items: center;
+}
+#avatar {
+  background-image: url('../img/electro.jpg');
+  height: 120px;
+  max-width: 100%;
+  width: 120px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 125%;
+  background-position-x: 20%;
+  background-position-y: 40%;
+  margin-bottom: 20px;
+  border: solid 3px hotpink;
+}
+#name {
+  display: flex;
+  flex-direction: column;
+}
+.user {
+  font-weight: 700;
+  color: #8856b9;
+}
+.user-name {
+  padding-bottom: 10px;
+}
+.instagram {
+  text-decoration: none;
+}
+.instagram:hover {
+  color: hotpink;
+  transition: 0.3s;
+}
+#buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  margin-bottom: 40px;
+}
+button {
+  border-radius: 12px;
+  background-color: #ebd6ff;
+  border: 2px solid hotpink;
+  color: #8856b9;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  width: 150px;
+  height: 50px;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: white;
+  color: #a378ce;
+  box-shadow: 0 6px 10px 0 rgba(105, 43, 175, 0.26),
+    0 14px 45px 0 rgba(70, 65, 65, 0.616);
+}
+/* #dubb {
+  padding: 10px 60px;
+}
+#podc {
+  padding: 10px 50px;
+}
+#gith {
+  padding: 10px 40px;
+} */
